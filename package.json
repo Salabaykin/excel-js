@@ -1,0 +1,37 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salabaykin/excel-js.git"
+  },
+  "author": "Evgeny Salabaykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salabaykin/excel-js/issues"
+  },
+  "homepage": "https://github.com/Salabaykin/excel-js#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
